@@ -32,7 +32,7 @@ class Die {
   void show(){
     noStroke();
     fill(255,255,255);
-    square(xPos, yPos, 50);
+    rect(xPos, yPos, 50, 50);
     face();
   }
   void face(){
